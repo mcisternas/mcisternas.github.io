@@ -1,0 +1,137 @@
+@import url("reset.css");
+
+body
+{
+	/*font: small Arial, Helvetica, Verdana, sans-serif;*/
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 13px;
+	background-color: #333333;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+
+}
+
+		#headercont #header
+		{
+			width: 900px;
+			height: 30px;
+			background-color: black;
+			border-top: 1px solid white;
+			margin-top: 3px;
+		}
+		
+					#headercont #header nav
+			{
+				float: left;
+				width: 900px;
+				height: 30px;
+
+			}
+		
+				#headercont #header nav ul
+				{
+					float: right;
+					margin: 0 0px 0 0;
+
+				}
+				
+				#headercont #header nav ul li
+				{
+					display: inline;
+				}
+				
+				#headercont #header nav ul li a
+				{
+					float: left;
+					line-height: 30px;
+					color: white;
+					padding: 0 35px 0px 10px;
+					margin: 0 0px 0 10px;
+					text-decoration: none;
+					/*font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;*/
+					font-size: 12px;
+					letter-spacing: 3px
+				}
+				
+					#headercont #header nav ul li.active a
+					{
+						color: #FFF;
+					}
+				
+				#headercont #header nav ul li a:hover
+				{
+					color: #FF3300;
+				}
+				
+	#maincont
+	{
+		width: 900px;
+		padding: 1px 0 0 0;
+		background-color: black;
+
+	}
+	
+	
+		#maincont #main
+		{
+			margin: 0 auto;
+			width: 900px;
+			padding: 0px 0 0px 0;
+			line-height: 20px;
+		}
+			
+			#maincont #main p { margin: 0 0 20px 0; font-size: 13px; font-family: 'Pontano Sans', sans-serif;}
+			
+			/*#maincont #main h1, #maincont #main h2, #maincont #main h3, #maincont #main h4, #maincont #main h5 { margin: 0 0 10px 0; font-weight: bold; letter-spacing: normal; font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif; }*/
+			#maincont #main h1, #maincont #main h2, #maincont #main h3, #maincont #main h4, #maincont #main h5 { margin: 15px 0 10px 0; font-weight: normal; font-family: 'Pontano Sans', sans-serif;}			
+			
+			
+			#maincont #main h1 { text-align: center; font-size: 18px; letter-spacing: 2px;}
+			#maincont #main h2 { font-size: 18px; letter-spacing: 2px;}
+			
+			#maincont #main h3 { font-size: 16px; letter-spacing: 2px;}
+			#maincont #main h4 { font-size: 26px; }
+			#maincont #main h5 { font-size: 26px; }
+				#maincont #main h1 span, #maincont #main h2 span, #maincont #main h3 span { color: #A80000; }
+			
+			#maincont #main ul { margin: 0 0 15px 35px; list-style-type: square; }
+			#maincont #main ul li { padding: 0 0 0 2px; }
+			
+			#maincont #main ol { margin: 0 0 15px 18px; list-style-type: decimal; }
+			#maincont #main ol li { padding: 0 0 15px 5px; }
+			#maincont #main a:link, #maincont #main a:visited  {color: #FF6600; text-decoration: none;}
+			#maincont #main a:hover, #maincont #main a:active  {color: #FF3300; text-decoration: none;}
+						
+					
+						
+				#maincont #main #mainleft
+				{
+					float: left;
+					width: 220px;
+					/*height: 540px;*/
+					padding: 20px 0 0 0;
+					/*border-right: 1px solid white;*/
+					color: white;
+					background-color: black;
+					text-align: center;
+					border-top: 1px solid white;*/
+				}
+				
+				#maincont #main #mainleft img {border:0;}
+				
+				#maincont #main #mainright
+				{
+					float: left;
+					width: 600px;
+					/*height: 520px;*/
+					padding: 40px 40px 0 40px;
+					background-color: white;
+					border-bottom: 1px solid white;
+				}
+				
+				#maincont #main #mainright #news
+				{
+					font-size: 13px;
+				}
+				
