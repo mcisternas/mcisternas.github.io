@@ -119,6 +119,9 @@ body
 				}
 
 				#maincont #main #mainleft img {border:0;}
+				#maincont #main #mainleft a:link,
+				#maincont #main #mainleft a:visited  {color: #B3B3B3; text-decoration: none;}
+
 
 				#maincont #main #mainright
 				{
